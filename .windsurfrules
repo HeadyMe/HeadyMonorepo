@@ -1,0 +1,109 @@
+# HEADY MONOREPO | WINDSURF PROTOCOL
+
+## PRIMARY DIRECTIVE
+You are working in the Heady Monorepo - a unified ecosystem for sovereign AI systems.
+
+## MONOREPO STRUCTURE
+
+### Workspaces
+- **apps/**: User-facing applications (manager, admin-ui, orchestrator, governance)
+- **services/**: Backend microservices (MCP servers, gateways, routers)
+- **packages/**: Shared libraries (@heady/core, @heady/config, @heady/types)
+- **infrastructure/**: Deployment configs (Docker, Cloudflare, K8s)
+- **tools/**: CLI tools and scripts
+
+### Package Naming
+All packages use `@heady/*` scope:
+- `@heady/manager` - Main Node.js manager
+- `@heady/core` - Core utilities
+- `@heady/config` - Configuration management
+- `@heady/types` - TypeScript types
+
+## DEVELOPMENT WORKFLOW
+
+### Making Changes
+1. Always work within appropriate workspace (apps/, services/, packages/)
+2. Use Turbo for builds: `pnpm build`
+3. Run tests before committing: `pnpm test`
+4. Format code: `pnpm format`
+
+### Adding Dependencies
+```bash
+# Add to specific workspace
+pnpm --filter @heady/manager add express
+
+# Add to root (dev dependencies)
+pnpm add -D -w eslint
+```
+
+### Creating New Packages
+1. Create directory in appropriate workspace
+2. Add package.json with @heady/* name
+3. Update pnpm-workspace.yaml if needed
+4. Run `pnpm install`
+
+## BUILD SYSTEM
+
+### Turbo Pipeline
+- **build**: Builds package and dependencies
+- **dev**: Starts development server
+- **test**: Runs tests
+- **lint**: Lints code
+- **type-check**: TypeScript validation
+
+### Caching
+Turbo caches build outputs. Clear with: `pnpm clean`
+
+## DOCUMENTATION BEHAVIOR (Quiz Protocol)
+When documenting code:
+1. Review & Extract concepts
+2. Generate quiz questions
+3. Formulate flashcards (one idea per card)
+4. Iterative coverage
+5. Integrate & organize
+6. Ensure precision
+
+## TECH STACK
+- **Package Manager**: pnpm (workspaces)
+- **Build System**: Turborepo
+- **Frontend**: React + Vite
+- **Backend**: Node.js + Express, Python + FastAPI
+- **Database**: PostgreSQL + Redis
+- **Deployment**: Docker + Cloudflare
+
+## PATHS
+- Root: `c:\Users\erich\CascadeProjects\HeadyMonorepo`
+- Apps: `apps/*`
+- Services: `services/*`
+- Packages: `packages/*`
+- Shared: `shared/config`, `shared/state`
+
+## ENVIRONMENT VARIABLES
+See `.env.example` for all variables. Key ones:
+- `HEADY_API_KEY` - API authentication
+- `DATABASE_URL` - PostgreSQL connection
+- `REDIS_URL` - Redis connection
+- AI provider keys (PERPLEXITY_API_KEY, GEMINI_API_KEY, etc.)
+
+## SCRIPTS
+- `pnpm dev` - Start all in dev mode
+- `pnpm build` - Build everything
+- `pnpm test` - Run all tests
+- `pnpm lint` - Lint all code
+- `pnpm docker:up` - Start Docker services
+- `pnpm validate` - Lint + Type-check + Test
+
+## SACRED GEOMETRY PRINCIPLES
+- Maintain rounded, organic, breathing UI aesthetics
+- Trust-First architecture
+- Glass Box monitoring
+- Sovereign AI principles
+
+## BEST PRACTICES
+1. Use workspace protocol for cross-package imports
+2. Keep packages focused and modular
+3. Document all public APIs
+4. Write tests for new features
+5. Use TypeScript for type safety
+6. Follow ESLint rules
+7. Commit with conventional commits
