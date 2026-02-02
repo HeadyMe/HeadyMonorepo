@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+    "heady": {
+      "command": "node",
+      "args": ["../HeadySystems/packages/core-domain/dist/mcp-server.js"],
+      "env": {
+        "HC_AUTOMATION_API_KEY": "${HC_AUTOMATION_API_KEY}"
+      },
+      "description": "Core Heady automation service (core-domain MCP server)"
+    },
+    "jules": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/claude-code-mcp"],
+      "env": {
+        "ANTHROPIC_API_KEY": "${HC_ANTHROPIC_API_KEY}"
+      },
+      "description": "Jules (Anthropic) - Advanced AI task execution and code generation"
+    },
+    "huggingface": {
+      "command": "npx",
+      "args": ["-y", "@huggingface/mcp-server"],
+      "env": {
+        "HF_TOKEN": "${HC_HUGGINGFACE_TOKEN}"
+      },
+      "description": "HuggingFace ML model integration for inference and fine-tuning"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp-server"],
+      "env": {
+        "PLAYWRIGHT_HEADLESS": "${PLAYWRIGHT_HEADLESS}"
+      },
+      "description": "Playwright browser automation toolkit for headless and interactive testing"
+    },
+    "github-gists": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "${HC_GITHUB_TOKEN}"
+      },
+      "description": "GitHub Gists integration for code snippet management and sharing"
+    }
+  }
+}

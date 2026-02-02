@@ -1,0 +1,44 @@
+{
+  "name": "heady-ecosystem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HeadySystems and HeadyConnection Monorepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "prepare": "husky install",
+    "setup:desktop": "node scripts/setup-desktop-icons.js",
+    "setup:env": "node scripts/setup-environment.js",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "deploy:dev": "npm run build && npm run deploy:dev:backend && npm run deploy:dev:frontend",
+    "deploy:staging": "npm run build && npm run deploy:staging:backend && npm run deploy:staging:frontend",
+    "deploy:prod": "npm run build && npm run deploy:prod:backend && npm run deploy:prod:frontend"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "chalk": "^5.6.2",
+    "chokidar": "^5.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "fs-extra": "^11.3.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "turbo": "^1.11.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.12.0"
+}

@@ -1,0 +1,136 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: heady-ecosystem-postgres
+    environment:
+      POSTGRES_USER: ${DATABASE_USER:-heady}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:-heady123}
+      POSTGRES_DB: ${DATABASE_NAME:-headysystems_dev}
+    ports:
+      - "${DATABASE_PORT:-5433}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - heady-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DATABASE_USER:-heady}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: heady-ecosystem-redis
+    ports:
+      - "${REDIS_PORT:-6380}:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - heady-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: heady-ecosystem-tunnel
+    profiles:
+      - tunnel
+    command: tunnel --no-autoupdate run --token ${HC_CLOUDFLARE_TUNNEL_TOKEN}
+    networks:
+      - heady-network
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+      args:
+        NODE_ENV: ${HEADY_ENV:-development}
+    container_name: heady-ecosystem-api
+    ports:
+      - "${HC_API_PORT:-8001}:8000"
+    environment:
+      NODE_ENV: ${HEADY_ENV:-development}
+      DATABASE_URL: postgresql://${DATABASE_USER:-heady}:${DATABASE_PASSWORD:-heady123}@postgres:5432/${DATABASE_NAME:-headysystems_dev}
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${HC_JWT_SECRET}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - heady-network
+    volumes:
+      - ./apps/api:/app
+      - /app/node_modules
+      - ./tsconfig.base.json:/tsconfig.base.json
+    command: ${API_CMD:-npm run dev}
+
+  web-heady-connection:
+    build:
+      context: ./apps/web-heady-connection
+      dockerfile: Dockerfile
+    container_name: heady-ecosystem-connection-web
+    ports:
+      - "${HC_CONNECTION_PORT:-3000}:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://api:8000
+      NODE_ENV: ${HEADY_ENV:-development}
+    depends_on:
+      - api
+    networks:
+      - heady-network
+    volumes:
+      - ./apps/web-heady-connection:/app
+      - /app/node_modules
+      - /app/.next
+
+  web-heady-systems:
+    build:
+      context: ./apps/web-heady-systems
+      dockerfile: Dockerfile
+    container_name: heady-ecosystem-systems-web
+    ports:
+      - "${HC_SYSTEMS_PORT:-3001}:3001"
+    environment:
+      NEXT_PUBLIC_API_URL: http://api:8000
+      NODE_ENV: ${HEADY_ENV:-development}
+    depends_on:
+      - api
+    networks:
+      - heady-network
+    volumes:
+      - ./apps/web-heady-systems:/app
+      - /app/node_modules
+      - /app/.next
+
+  browser-automation:
+    build:
+      context: ./services/browser-automation
+      dockerfile: Dockerfile
+    container_name: heady-ecosystem-browser
+    ports:
+      - "${BROWSER_PORT:-9222}:9222"
+    environment:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+    networks:
+      - heady-network
+    volumes:
+      - ./services/browser-automation:/app
+      - /app/node_modules
+    shm_size: '2gb'
+
+networks:
+  heady-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:
