@@ -1,0 +1,29 @@
+{
+  "name": "@heady/monorepo",
+  "version": "1.0.0",
+  "description": "Heady Systems Monorepo - Sacred Geometry Ecosystem",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "build:all": "npm run build --workspaces",
+    "test:all": "npm run test --workspaces",
+    "clean": "npm run clean --workspaces && rm -rf node_modules",
+    "lint": "npm run lint --workspaces"
+  },
+  "keywords": [
+    "heady",
+    "sacred-geometry",
+    "monorepo",
+    "mcp",
+    "sovereign-ai"
+  ],
+  "author": "Heady Systems",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
