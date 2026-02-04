@@ -1,0 +1,65 @@
+{
+  "name": "Heady Sacred Geometry Design System",
+  "description": "Sacred Geometry design system with organic, rounded aesthetics",
+  "fileKey": "heady-sacred-geometry",
+  "version": "14.3",
+  "designTokens": {
+    "colors": {
+      "light": {
+        "primary": "#6366f1",
+        "secondary": "#10b981",
+        "background": "#fafaf9",
+        "surface": "#ffffff",
+        "text": "#1c1917"
+      },
+      "dark": {
+        "primary": "#8b5cf6",
+        "secondary": "#06b6d4",
+        "background": "#0f0f10",
+        "surface": "#18181b",
+        "text": "#fafafa"
+      }
+    },
+    "spacing": {
+      "xs": "8px",
+      "sm": "12px",
+      "md": "20px",
+      "lg": "32px",
+      "xl": "52px"
+    },
+    "radius": {
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "full": "9999px"
+    },
+    "typography": {
+      "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "fontSize": {
+        "xs": "12px",
+        "sm": "14px",
+        "base": "16px",
+        "lg": "18px",
+        "xl": "20px",
+        "2xl": "24px",
+        "3xl": "30px"
+      }
+    }
+  },
+  "components": [
+    "Button",
+    "Card",
+    "Input",
+    "Select",
+    "Modal",
+    "Navigation",
+    "Header",
+    "Footer"
+  ],
+  "exportSettings": {
+    "format": "svg",
+    "scale": 2,
+    "outputDir": "assets/figma/exports"
+  }
+}

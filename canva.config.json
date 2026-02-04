@@ -1,0 +1,52 @@
+{
+  "brandKit": {
+    "id": "heady-brand-kit",
+    "name": "Heady Sacred Geometry",
+    "version": "14.3"
+  },
+  "templates": {
+    "socialMedia": {
+      "twitter": "heady-twitter-card",
+      "linkedin": "heady-linkedin-post",
+      "github": "heady-github-banner",
+      "facebook": "heady-facebook-post"
+    },
+    "documentation": {
+      "header": "heady-doc-header",
+      "diagram": "heady-diagram-template",
+      "infographic": "heady-infographic"
+    },
+    "presentations": {
+      "pitch": "heady-pitch-deck",
+      "technical": "heady-technical-presentation",
+      "workshop": "heady-workshop-slides"
+    },
+    "marketing": {
+      "flyer": "heady-flyer",
+      "poster": "heady-poster",
+      "brochure": "heady-brochure"
+    }
+  },
+  "brandColors": {
+    "primary": "#8b5cf6",
+    "secondary": "#06b6d4",
+    "accent": "#10b981",
+    "background": "#0f0f10",
+    "text": "#fafafa"
+  },
+  "fonts": {
+    "heading": "Inter",
+    "body": "System UI",
+    "mono": "Fira Code"
+  },
+  "logos": {
+    "main": "assets/canva/logos/heady-main.png",
+    "icon": "assets/canva/logos/heady-icon.png",
+    "wordmark": "assets/canva/logos/heady-wordmark.png"
+  },
+  "exportSettings": {
+    "format": "png",
+    "quality": "high",
+    "outputDir": "assets/canva/exports"
+  }
+}

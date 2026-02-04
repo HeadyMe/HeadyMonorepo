@@ -29,6 +29,7 @@ export enum PatternCategory {
   RESPONSE = 'RESPONSE',
   NAMING = 'NAMING',
   BINARY = 'BINARY',
+  DOCUMENTATION = 'DOCUMENTATION',
 }
 
 export interface Pattern {
@@ -302,6 +303,28 @@ export class PatternRegistry {
         maintainabilityIndex: 89,
         lastValidated: new Date(),
         superiorityScore: 91,
+      },
+    });
+
+    // Documentation Patterns
+    this.registerPattern({
+      id: 'doc-001',
+      category: PatternCategory.DOCUMENTATION,
+      name: 'Visual Documentation',
+      description: 'All architecture docs must include Mermaid diagrams, Figma links, or Canva assets',
+      implementation: 'docs/',
+      examples: ['Mermaid architecture diagrams', 'Figma component links', 'Canva visual assets'],
+      antiPatterns: ['Text-only architecture descriptions', 'Missing visual aids', 'Outdated diagrams'],
+      strictness: 'MODERATE',
+      enforcementLevel: 'RECOMMENDED',
+      metrics: {
+        usageCount: 0,
+        violationCount: 0,
+        performanceImpact: 100,
+        securityScore: 70,
+        maintainabilityIndex: 95,
+        lastValidated: new Date(),
+        superiorityScore: 88,
       },
     });
 
