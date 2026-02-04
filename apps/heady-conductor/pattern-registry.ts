@@ -30,6 +30,7 @@ export enum PatternCategory {
   NAMING = 'NAMING',
   BINARY = 'BINARY',
   DOCUMENTATION = 'DOCUMENTATION',
+  WORKFLOW = 'WORKFLOW',
 }
 
 export interface Pattern {
@@ -325,6 +326,28 @@ export class PatternRegistry {
         maintainabilityIndex: 95,
         lastValidated: new Date(),
         superiorityScore: 88,
+      },
+    });
+
+    // Workflow Patterns
+    this.registerPattern({
+      id: 'workflow-001',
+      category: PatternCategory.WORKFLOW,
+      name: 'UI-Based Workflows',
+      description: 'Complex command sequences should be UI workflows, not manual commands or desktop shortcuts',
+      implementation: '.windsurf/workflows/',
+      examples: ['Build and sync workflow in UI', 'Deployment workflow with approval steps', 'Multi-step automation in interface'],
+      antiPatterns: ['Repetitive manual commands (hc -a hb then hc -a hs)', 'Desktop shortcuts for multi-step processes', 'Copy-paste command sequences'],
+      strictness: 'MODERATE',
+      enforcementLevel: 'RECOMMENDED',
+      metrics: {
+        usageCount: 0,
+        violationCount: 0,
+        performanceImpact: 95,
+        securityScore: 80,
+        maintainabilityIndex: 92,
+        lastValidated: new Date(),
+        superiorityScore: 89,
       },
     });
 
