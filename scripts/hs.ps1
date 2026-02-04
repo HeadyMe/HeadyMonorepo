@@ -124,6 +124,22 @@ if (Test-Path "$ScriptDir\optimize_repos.ps1") {
     & "$ScriptDir\optimize_repos.ps1"
 }
 
+# 4.5. CHECKPOINT VALIDATION
+Show-Step "Running Checkpoint Validation..."
+if (Test-Path "$ScriptDir\checkpoint-validation.ps1") {
+    $checkpointResult = & "$ScriptDir\checkpoint-validation.ps1" -QuickCheck
+    if ($LASTEXITCODE -ne 0 -and !$Force) {
+        Write-Error "Checkpoint validation failed. Use -Force to override or fix issues first."
+        exit 1
+    } elseif ($LASTEXITCODE -ne 0 -and $Force) {
+        Write-Warning "Checkpoint validation failed but continuing due to -Force flag."
+    } else {
+        Write-Host "✅ Checkpoint validation passed!" -ForegroundColor Green
+    }
+} else {
+    Write-Warning "Checkpoint validation script not found. Skipping..."
+}
+
 # 5. FINAL SYNC (Squash & Push)
 Show-Step "Finalizing Synchronization..."
 if (Test-Path "$ScriptDir\Heady-Sync.ps1") {
