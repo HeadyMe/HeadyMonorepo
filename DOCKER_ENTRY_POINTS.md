@@ -1,3 +1,17 @@
+<!-- HEADY_BRAND:BEGIN -->
+<!-- HEADY SYSTEMS :: SACRED GEOMETRY -->
+<!-- FILE: DOCKER_ENTRY_POINTS.md -->
+<!-- LAYER: root -->
+<!--  -->
+<!--         _   _  _____    _    ____   __   __ -->
+<!--        | | | || ____|  / \  |  _ \ \ \ / / -->
+<!--        | |_| ||  _|   / _ \ | | | | \ V /  -->
+<!--        |  _  || |___ / ___ \| |_| |  | |   -->
+<!--        |_| |_||_____/_/   \_\____/   |_|   -->
+<!--  -->
+<!--    Sacred Geometry :: Organic Systems :: Breathing Interfaces -->
+<!-- HEADY_BRAND:END -->
+
 # Docker Entry Points - Complete Reference
 
 **All functional Docker entry points for Heady Systems**

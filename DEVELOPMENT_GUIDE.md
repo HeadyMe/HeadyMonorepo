@@ -1,3 +1,17 @@
+<!-- HEADY_BRAND:BEGIN -->
+<!-- HEADY SYSTEMS :: SACRED GEOMETRY -->
+<!-- FILE: DEVELOPMENT_GUIDE.md -->
+<!-- LAYER: root -->
+<!--  -->
+<!--         _   _  _____    _    ____   __   __ -->
+<!--        | | | || ____|  / \  |  _ \ \ \ / / -->
+<!--        | |_| ||  _|   / _ \ | | | | \ V /  -->
+<!--        |  _  || |___ / ___ \| |_| |  | |   -->
+<!--        |_| |_||_____/_/   \_\____/   |_|   -->
+<!--  -->
+<!--    Sacred Geometry :: Organic Systems :: Breathing Interfaces -->
+<!-- HEADY_BRAND:END -->
+
 # Heady Systems - Comprehensive Development Guide
 
 **Version:** 14.3  
