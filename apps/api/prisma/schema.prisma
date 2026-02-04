@@ -120,4 +120,101 @@ enum AutomationType {
   BROWSER_INTERACTIVE
   API_CALL
   SCHEDULED
+  DRUPAL_SYNC
+}
+
+// Content Management Models for Hybrid Drupal CMS
+model Content {
+  id            String      @id @default(cuid())
+  title         String
+  slug          String      @unique
+  body          String?
+  excerpt       String?
+  status        ContentStatus @default(DRAFT)
+  contentType   ContentType @default(ARTICLE)
+  
+  // Drupal Integration
+  drupalNid     String?     @unique  // Drupal Node ID
+  drupalSyncAt  DateTime?           // Last sync timestamp
+  drupalUrl     String?             // Source Drupal URL
+  
+  // Taxonomy
+  tags          Tag[]
+  categories    Category[]
+  
+  // Metadata
+  author        User        @relation(fields: [authorId], references: [id])
+  authorId      String
+  publishedAt   DateTime?
+  
+  // SEO
+  metaTitle     String?
+  metaDescription String?
+  featuredImage String?
+  
+  // Organization
+  organization  Organization @relation(fields: [organizationId], references: [id])
+  organizationId String
+  
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+}
+
+model Tag {
+  id            String    @id @default(cuid())
+  name          String    @unique
+  slug          String    @unique
+  contents      Content[]
+  createdAt     DateTime  @default(now())
+}
+
+model Category {
+  id            String    @id @default(cuid())
+  name          String
+  slug          String    @unique
+  description   String?
+  parentId      String?
+  parent        Category? @relation("CategoryHierarchy", fields: [parentId], references: [id])
+  children      Category[] @relation("CategoryHierarchy")
+  contents      Content[]
+  organization  Organization @relation(fields: [organizationId], references: [id])
+  organizationId String
+  createdAt     DateTime  @default(now())
+  
+  @@unique([name, organizationId])
+}
+
+model DrupalSyncLog {
+  id            String    @id @default(cuid())
+  operation     String    // 'import', 'export', 'update', 'delete'
+  contentType   String    // 'article', 'page', 'media'
+  drupalNid     String?   // Drupal Node ID involved
+  status        SyncStatus @default(PENDING)
+  message       String?   // Error message or success details
+  details       Json?     // Additional sync metadata
+  
+  createdAt     DateTime  @default(now())
+  completedAt   DateTime?
+}
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+  SCHEDULED
+}
+
+enum ContentType {
+  ARTICLE
+  PAGE
+  MEDIA
+  DOCUMENT
+}
+
+enum SyncStatus {
+  PENDING
+  IN_PROGRESS
+  SUCCESS
+  FAILED
+  PARTIAL
 }

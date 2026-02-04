@@ -25,6 +25,7 @@ const redis = createClient({
 });
 
 import taskRouter from './routes/tasks';
+import contentRouter from './routes/content';
 
 // Middleware
 app.use(helmet());
@@ -39,6 +40,7 @@ app.use(express.json());
 
 // API Routes
 app.use('/api/tasks', taskRouter);
+app.use('/api/content', contentRouter);
 
 app.get('/health', async (_req: express.Request, res) => {
   try {
