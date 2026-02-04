@@ -1,3 +1,17 @@
+// HEADY_BRAND:BEGIN
+// HEADY SYSTEMS :: SACRED GEOMETRY
+// FILE: infrastructure/cloudflare/supervisor-worker/src/index.js
+// LAYER: root
+// 
+//         _   _  _____    _  __   __
+//        | | | || ____|  / \ \  / /
+//        | |_| ||  _|   / _ \ \ V / 
+//        |  _  || |___ / ___ \ | |  
+//        |_| |_||_____/_/   \_\|_|  
+// 
+//    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+// HEADY_BRAND:END
+
 /**
  * HeadySystems Cloud Supervisor - The Reflex
  * Cloudflare Worker for high-speed traffic interception and health monitoring

@@ -1,3 +1,17 @@
+<!-- HEADY_BRAND:BEGIN -->
+<!-- HEADY SYSTEMS :: SACRED GEOMETRY -->
+<!-- FILE: apps/heady-cms/ARCHITECTURE_CLARIFICATION.md -->
+<!-- LAYER: root -->
+<!--  -->
+<!--         _   _  _____    _  __   __ -->
+<!--        | | | || ____|  / \ \  / / -->
+<!--        | |_| ||  _|   / _ \ \ V /  -->
+<!--        |  _  || |___ / ___ \ | |   -->
+<!--        |_| |_||_____/_/   \_\|_|   -->
+<!--  -->
+<!--    Sacred Geometry :: Organic Systems :: Breathing Interfaces -->
+<!-- HEADY_BRAND:END -->
+
 # Heady System Architecture - CMS Clarification
 
 ## ❌ No - Heady Does NOT Use Drupal 11

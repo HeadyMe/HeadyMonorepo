@@ -1,3 +1,17 @@
+<!-- HEADY_BRAND:BEGIN -->
+<!-- HEADY SYSTEMS :: SACRED GEOMETRY -->
+<!-- FILE: .github/agents/heady-admin-ide.agent.md -->
+<!-- LAYER: root -->
+<!--  -->
+<!--         _   _  _____    _  __   __ -->
+<!--        | | | || ____|  / \ \  / / -->
+<!--        | |_| ||  _|   / _ \ \ V /  -->
+<!--        |  _  || |___ / ___ \ | |   -->
+<!--        |_| |_||_____/_/   \_\|_|   -->
+<!--  -->
+<!--    Sacred Geometry :: Organic Systems :: Breathing Interfaces -->
+<!-- HEADY_BRAND:END -->
+
 ---
 name: heady-admin-ide
 description: 'Manages admin IDE operations including file editing, code linting, testing, and AI-assisted development'

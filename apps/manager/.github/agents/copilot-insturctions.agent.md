@@ -1,3 +1,17 @@
+<!-- HEADY_BRAND:BEGIN -->
+<!-- HEADY SYSTEMS :: SACRED GEOMETRY -->
+<!-- FILE: apps/manager/.github/agents/copilot-insturctions.agent.md -->
+<!-- LAYER: root -->
+<!--  -->
+<!--         _   _  _____    _  __   __ -->
+<!--        | | | || ____|  / \ \  / / -->
+<!--        | |_| ||  _|   / _ \ \ V /  -->
+<!--        |  _  || |___ / ___ \ | |   -->
+<!--        |_| |_||_____/_/   \_\|_|   -->
+<!--  -->
+<!--    Sacred Geometry :: Organic Systems :: Breathing Interfaces -->
+<!-- HEADY_BRAND:END -->
+
 ---
 name: heady-system-audit
 description: 'Performs comprehensive system audits including health checks, dependency verification, and project structure analysis'

@@ -1,3 +1,17 @@
+# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: scripts/Build-HeadyEcosystem.ps1
+# LAYER: root
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
 <#
 .SYNOPSIS
     Build-HeadyEcosystem.ps1 - Automates integration of repository components into Heady architecture

@@ -1,3 +1,17 @@
+// HEADY_BRAND:BEGIN
+// HEADY SYSTEMS :: SACRED GEOMETRY
+// FILE: mcp-servers/heady-drupal-mcp/server.js
+// LAYER: root
+// 
+//         _   _  _____    _  __   __
+//        | | | || ____|  / \ \  / /
+//        | |_| ||  _|   / _ \ \ V / 
+//        |  _  || |___ / ___ \ | |  
+//        |_| |_||_____/_/   \_\|_|  
+// 
+//    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+// HEADY_BRAND:END
+
 const { MCP } = require('@modelcontextprotocol/server');
 
 const server = new MCP({

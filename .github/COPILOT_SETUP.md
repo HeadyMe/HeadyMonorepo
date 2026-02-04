@@ -1,3 +1,17 @@
+<!-- HEADY_BRAND:BEGIN -->
+<!-- HEADY SYSTEMS :: SACRED GEOMETRY -->
+<!-- FILE: .github/COPILOT_SETUP.md -->
+<!-- LAYER: root -->
+<!--  -->
+<!--         _   _  _____    _  __   __ -->
+<!--        | | | || ____|  / \ \  / / -->
+<!--        | |_| ||  _|   / _ \ \ V /  -->
+<!--        |  _  || |___ / ___ \ | |   -->
+<!--        |_| |_||_____/_/   \_\|_|   -->
+<!--  -->
+<!--    Sacred Geometry :: Organic Systems :: Breathing Interfaces -->
+<!-- HEADY_BRAND:END -->
+
 # Copilot Coding Agent Setup Guide
 
 This repository is configured to work with GitHub Copilot's Coding Agent for automated fixes, builds, and testing.

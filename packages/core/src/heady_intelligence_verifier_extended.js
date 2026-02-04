@@ -1,3 +1,17 @@
+// HEADY_BRAND:BEGIN
+// HEADY SYSTEMS :: SACRED GEOMETRY
+// FILE: packages/core/src/heady_intelligence_verifier_extended.js
+// LAYER: root
+// 
+//         _   _  _____    _  __   __
+//        | | | || ____|  / \ \  / /
+//        | |_| ||  _|   / _ \ \ V / 
+//        |  _  || |___ / ___ \ | |  
+//        |_| |_||_____/_/   \_\|_|  
+// 
+//    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+// HEADY_BRAND:END
+
 #!/usr/bin/env node
 /**
  * HEADY INTELLIGENCE VERIFIER - EXTENDED OPERATIONS v1.0

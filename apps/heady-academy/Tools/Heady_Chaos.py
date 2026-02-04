@@ -1,3 +1,17 @@
+# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: apps/heady-academy/Tools/Heady_Chaos.py
+# LAYER: root
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
 """
 HeadyChaos - The Entropy Engine & Pattern Recognizer
 "Breaking down the data dump of life into tiny little pieces that form a whole puzzle."

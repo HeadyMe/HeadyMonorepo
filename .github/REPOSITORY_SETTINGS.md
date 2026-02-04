@@ -1,3 +1,17 @@
+<!-- HEADY_BRAND:BEGIN -->
+<!-- HEADY SYSTEMS :: SACRED GEOMETRY -->
+<!-- FILE: .github/REPOSITORY_SETTINGS.md -->
+<!-- LAYER: root -->
+<!--  -->
+<!--         _   _  _____    _  __   __ -->
+<!--        | | | || ____|  / \ \  / / -->
+<!--        | |_| ||  _|   / _ \ \ V /  -->
+<!--        |  _  || |___ / ___ \ | |   -->
+<!--        |_| |_||_____/_/   \_\|_|   -->
+<!--  -->
+<!--    Sacred Geometry :: Organic Systems :: Breathing Interfaces -->
+<!-- HEADY_BRAND:END -->
+
 # GitHub Repository Configuration Guide
 
 This document outlines the required repository settings for the Copilot Coding Agent to function properly.

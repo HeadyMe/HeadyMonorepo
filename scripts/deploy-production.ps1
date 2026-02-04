@@ -1,3 +1,17 @@
+# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: scripts/deploy-production.ps1
+# LAYER: root
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
 # Heady Production Deployment Script
 # Intelligent Squash Merge and Deployment Pipeline
 # Generated: 2025-01-30

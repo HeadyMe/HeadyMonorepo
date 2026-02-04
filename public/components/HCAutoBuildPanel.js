@@ -1,3 +1,17 @@
+// HEADY_BRAND:BEGIN
+// HEADY SYSTEMS :: SACRED GEOMETRY
+// FILE: public/components/HCAutoBuildPanel.js
+// LAYER: ui/public
+// 
+//         _   _  _____    _  __   __
+//        | | | || ____|  / \ \  / /
+//        | |_| ||  _|   / _ \ \ V / 
+//        |  _  || |___ / ___ \ | |  
+//        |_| |_||_____/_/   \_\|_|  
+// 
+//    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+// HEADY_BRAND:END
+
 /**
  * HCAutoBuild Panel Component
  * Real-time build orchestration UI for Heady Admin

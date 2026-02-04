@@ -1,3 +1,17 @@
+// HEADY_BRAND:BEGIN
+// HEADY SYSTEMS :: SACRED GEOMETRY
+// FILE: src/utils/realtime.js
+// LAYER: backend/src
+// 
+//         _   _  _____    _  __   __
+//        | | | || ____|  / \ \  / /
+//        | |_| ||  _|   / _ \ \ V / 
+//        |  _  || |___ / ___ \ | |  
+//        |_| |_||_____/_/   \_\|_|  
+// 
+//    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+// HEADY_BRAND:END
+
 const WebSocket = require('ws');
 const { EventEmitter } = require('events');
 

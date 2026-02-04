@@ -1,3 +1,17 @@
+# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: scripts/stop-heady-system.ps1
+# LAYER: root
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
 # Stop Heady System Services
 # Terminates processes listening on Heady ports (3300-3304)
 

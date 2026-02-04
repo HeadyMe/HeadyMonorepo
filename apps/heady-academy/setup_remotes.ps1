@@ -1,3 +1,17 @@
+# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: apps/heady-academy/setup_remotes.ps1
+# LAYER: root
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
 # GIT REMOTE CONFIGURATION SCRIPT
 # Sets up multiple remote repositories for HeadySystems
 

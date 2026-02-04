@@ -1,4 +1,18 @@
 #!/usr/bin/env python3
+# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: src/codex_builder_v13.py
+# LAYER: backend/src
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
 """
 Codex Builder v13 - Deterministic Repository Generator
 Compliance: PPA-001, PPA-002, PPA-003, PPA-004.

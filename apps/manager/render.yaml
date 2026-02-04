@@ -1,4 +1,18 @@
-﻿# Exported from Render on 2026-01-30T13:57:31Z
+﻿# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: apps/manager/render.yaml
+# LAYER: root
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
+# Exported from Render on 2026-01-30T13:57:31Z
 version: "1"
 projects:
 - name: Heady

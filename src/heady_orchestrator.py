@@ -1,4 +1,18 @@
 #!/usr/bin/env python3
+# HEADY_BRAND:BEGIN
+# HEADY SYSTEMS :: SACRED GEOMETRY
+# FILE: src/heady_orchestrator.py
+# LAYER: backend/src
+# 
+#         _   _  _____    _  __   __
+#        | | | || ____|  / \ \  / /
+#        | |_| ||  _|   / _ \ \ V / 
+#        |  _  || |___ / ___ \ | |  
+#        |_| |_||_____/_/   \_\|_|  
+# 
+#    Sacred Geometry :: Organic Systems :: Breathing Interfaces
+# HEADY_BRAND:END
+
 """
 Heady Dynamic Orchestrator
 Implements intelligent orchestration with auto-scaling, health checks, and failover
