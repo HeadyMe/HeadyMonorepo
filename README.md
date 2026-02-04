@@ -1,6 +1,14 @@
 # HeadyEcosystem - Unified Development Platform
 
-A comprehensive monorepo for HeadyConnection (nonprofit) and HeadySystems (C-Corp) with integrated development, deployment, and automation capabilities.
+A comprehensive monorepo for HeadyConnection (nonprofit) and HeadySystems (C-Corp) with **Drupal Hybrid CMS integration**, Sacred Geometry UI, and full-stack automation capabilities.
+
+## ✨ Latest Updates (2026-02-03)
+
+- ✅ **Drupal 11 Hybrid CMS Integration** - Headless CMS with JSON:API sync
+- ✅ **Content Management API** - Full CRUD operations for articles, pages, media
+- ✅ **Sacred Geometry UI** - Organic, rounded design system with breathing animations
+- ✅ **Docker Compose Setup** - Drupal + PostgreSQL + Redis + API stack
+- ✅ **Consolidated with HeadyMonorepo** - Unified codebase on GitHub
 
 ## 🚀 Quick Start
 
@@ -13,8 +21,11 @@ cd HeadyEcosystem
 pnpm install
 
 # Set up environment
-cp .env.example .env.local
-# Edit .env.local with your credentials
+cp .env.example .env
+# Edit .env with your credentials (especially DRUPAL_BASE_URL)
+
+# Start all services (including Drupal CMS)
+docker-compose --profile drupal up -d
 
 # Start development
 pnpm run dev
@@ -23,6 +34,7 @@ pnpm run dev
 # - HeadyConnection: http://localhost:3000
 # - HeadySystems: http://localhost:3001
 # - API: http://localhost:8000
+# - Drupal CMS: http://localhost:8080
 ```
 
 ## 📁 Project Structure
@@ -49,6 +61,7 @@ HeadyEcosystem/
 
 - **Frontend**: React, TypeScript, Next.js
 - **Backend**: Node.js, Express, TypeScript
+- **CMS**: Drupal 11 (Headless mode with JSON:API)
 - **Database**: PostgreSQL with Prisma ORM
 - **Cache**: Redis
 - **Container**: Docker & Docker Compose
@@ -56,6 +69,7 @@ HeadyEcosystem/
 - **Deployment**: Render (backend), Cloudflare (edge)
 - **Browser Automation**: Playwright
 - **IDE Integration**: Windsurf, VS Code
+- **Design System**: Sacred Geometry (organic, rounded aesthetics)
 
 ## 🔐 Security & Access
 
