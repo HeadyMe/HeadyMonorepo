@@ -1,0 +1,47 @@
+{
+  "mcpServers": {
+    "heady-conductor": {
+      "command": "node",
+      "args": ["apps/heady-conductor/index.js"],
+      "env": {
+        "PORT": "3400"
+      },
+      "description": "HeadyConductor - Central orchestration and pattern management",
+      "capabilities": [
+        "pattern-registry",
+        "concept-analysis",
+        "pattern-discovery",
+        "checkpoint-validation"
+      ]
+    },
+    "heady-content": {
+      "command": "node",
+      "args": ["apps/api/dist/index.js"],
+      "env": {
+        "HC_API_PORT": "8000",
+        "NODE_ENV": "production"
+      },
+      "description": "Heady Content API - Drupal CMS integration and content management",
+      "capabilities": [
+        "content-management",
+        "drupal-sync",
+        "task-management",
+        "real-time-updates"
+      ]
+    },
+    "heady-patterns": {
+      "command": "node",
+      "args": ["apps/heady-conductor/pattern-server.js"],
+      "env": {
+        "PORT": "3401"
+      },
+      "description": "Heady Pattern Server - Pattern validation and discovery",
+      "capabilities": [
+        "pattern-validation",
+        "superiority-checking",
+        "integration-opportunities",
+        "quality-metrics"
+      ]
+    }
+  }
+}
