@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*",
+    "apps/*",
+    "extensions/*"
+  ],
+  "command": {
+    "version": {
+      "allowBranch": ["main", "develop"],
+      "conventionalCommits": true,
+      "message": "chore(release): publish %s"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+name = "heady-supervisor-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Durable Objects migration
+[[migrations]]
+tag = "v1"
+new_classes = ["SupervisorState"]
+
+[env.production.vars]
+JWT_SECRET = "heady-supervisor-secret-key"
+AI_ANALYSIS_ENABLED = "true"
+AI_PRIMARY_PROVIDER = "perplexity"
+# AI Provider URLs
+JULES_API_URL = "https://api.jules.ai/v1/chat/completions"
+PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
+# API keys should be set via wrangler secret:
+# wrangler secret put JULES_API_KEY --env production
+# wrangler secret put PERPLEXITY_API_KEY --env production
+# wrangler secret put GEMINI_API_KEY --env production
+
+[[env.production.durable_objects.bindings]]
+name = "SUPERVISOR_STATE"
+class_name = "SupervisorState"
+
+[env.production.triggers]
+crons = ["*/1 * * * *"]  # Every minute for health checks
+
+[env.staging.vars]
+JWT_SECRET = "heady-supervisor-staging-key"
+JULES_API_URL = "https://api.jules.ai/v1/chat/completions"
+AI_ANALYSIS_ENABLED = "false"
+# JULES_API_KEY should be set via wrangler secret for staging
+
+[[env.staging.durable_objects.bindings]]
+name = "SUPERVISOR_STATE"
+class_name = "SupervisorState"
+
+[env.staging.triggers]
+crons = ["*/5 * * * *"]  # Every 5 minutes for staging
+
+# Development environment
+[env.dev.vars]
+JWT_SECRET = "heady-supervisor-dev-key"
+JULES_API_URL = "https://api.jules.ai/v1/chat/completions"
+AI_ANALYSIS_ENABLED = "false"
+
+[[env.dev.durable_objects.bindings]]
+name = "SUPERVISOR_STATE"
+class_name = "SupervisorState"

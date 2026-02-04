@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Heady"
+		},
+		{
+			"path": "../../../../Projects"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "Heady"
+	}
+}

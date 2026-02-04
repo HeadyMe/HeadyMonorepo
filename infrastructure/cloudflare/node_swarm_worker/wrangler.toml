@@ -1,0 +1,13 @@
+name = "heady-node-swarm-worker"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[durable_objects]
+bindings = [
+  { name = "NODE_REGISTRY", class_name = "NodeRegistry" },
+  { name = "NODE", class_name = "HeadyNode" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["NodeRegistry", "HeadyNode"]

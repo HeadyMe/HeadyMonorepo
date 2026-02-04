@@ -1,0 +1,57 @@
+{
+  "name": "@heady/ide",
+  "version": "1.0.0",
+  "description": "Hybrid Eclipse Theia + VS Code OSS IDE with Heady Systems integration",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "extensions/*"
+  ],
+  "scripts": {
+    "install:theia": "npm install @theia/core @theia/filesystem @theia/editor @theia/monaco @theia/terminal @theia/git @theia/plugin-ext",
+    "install:vscode": "npm install vscode",
+    "build": "npm run build:packages && npm run build:apps",
+    "build:packages": "lerna run build --scope '@heady/ide-*'",
+    "build:apps": "lerna run build --scope '@heady/ide-app-*'",
+    "dev": "concurrently \"npm run dev:browser\" \"npm run dev:heady\"",
+    "dev:browser": "cd apps/browser && npm run dev",
+    "dev:electron": "cd apps/electron && npm run dev",
+    "dev:heady": "cd ../../Heady && npm start",
+    "build:electron": "cd apps/electron && npm run build",
+    "test": "lerna run test",
+    "clean": "lerna clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.54.0",
+    "lerna": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@theia/core": "^1.45.0",
+    "@theia/editor": "^1.45.0",
+    "@theia/filesystem": "^1.45.0",
+    "@theia/git": "^1.45.0",
+    "@theia/monaco": "^1.45.0",
+    "@theia/plugin-ext": "^1.45.0",
+    "@theia/terminal": "^1.45.0",
+    "@theia/workspace": "^1.45.0",
+    "monaco-editor": "^0.45.0",
+    "vscode": "npm:@vscode/test-electron@^2.3.8",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HeadySystems/HeadyIDE"
+  },
+  "author": "Eric Haywood <eric@headysystems.com>",
+  "license": "MIT"
+}

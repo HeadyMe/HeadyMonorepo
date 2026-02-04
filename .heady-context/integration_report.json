@@ -1,0 +1,3431 @@
+{
+  "version": "2.0.0",
+  "timestamp": "2026-02-03T16:33:40.439Z",
+  "sources": [
+    {
+      "type": "codemap",
+      "path": "c:\\Users\\erich\\Heady\\.heady-context\\codemap.json",
+      "timestamp": "2026-02-03T15:33:35.549Z",
+      "version": "2.0.0"
+    },
+    {
+      "type": "codemap",
+      "path": "c:\\Users\\erich\\Projects\\packages\\shared\\state\\codemap.json",
+      "timestamp": "2026-01-31T22:23:00Z",
+      "version": "1.0"
+    },
+    {
+      "type": "codemap",
+      "path": "c:\\Users\\erich\\Projects\\_archive\\shared_legacy\\state\\codemap.json",
+      "timestamp": "2026-01-31T22:23:00Z",
+      "version": "1.0"
+    },
+    {
+      "type": "concept_registry",
+      "path": "c:\\Users\\erich\\CascadeProjects\\heady_concept_registry.json"
+    },
+    {
+      "type": "project_context",
+      "path": "c:\\Users\\erich\\Heady\\.heady-context\\project-context.json",
+      "timestamp": "2026-02-03T15:33:35.549Z"
+    },
+    {
+      "type": "heady_registry",
+      "path": "c:\\Users\\erich\\Heady\\.heady-memory\\heady-registry.json"
+    }
+  ],
+  "concepts": {
+    "Dashboard": {
+      "name": "Dashboard",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Admin\\Dashboard.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Admin\\Dashboard.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Admin\\Dashboard.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Admin\\Dashboard.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Governance": {
+      "name": "Governance",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Admin\\Dashboard.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\HeadyMaster.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\consolidator.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Optimizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Admin\\Dashboard.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\HeadyMaster.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\consolidator.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Optimizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Admin\\Dashboard.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\HeadyMaster.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Optimizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyEcosystem\\scripts\\setup-desktop-icons.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\protocol\\manager.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\required-server-files.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\dcb60_next_dist_447a77a7._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\[root-of-the-server]__6ca81b50._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\static\\chunks\\07a9c0481e7f74ee.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\.wrangler\\tmp\\dev-MObmXI\\index.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\scripts\\test-integration.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\protocol.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\MonitoringDashboard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\realtime-task-manager.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\utils\\logger.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\server\\app\\page.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\server\\chunks\\87.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\src\\app\\page.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\app\\(tabs)\\activity.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\app\\(tabs)\\settings.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\server\\app\\api\\status\\route.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\server\\chunks\\812.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\server\\app\\api\\status\\route.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\server\\chunks\\641.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\hc.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Admin\\Dashboard.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\HeadyMaster.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Start_HeadyAcademy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Consolidator.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\secret-manager.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\Server.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Optimizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\mcp-server.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-manager.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-manager.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\utils\\logger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\utils\\logger.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\utils\\logger.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\scripts\\auto-merge.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\scripts\\ingest-data.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\scripts\\verify-mcp-new.js"
+      ],
+      "score": 82,
+      "status": "successful",
+      "totalScore": 123
+    },
+    "HeadyMaster": {
+      "name": "HeadyMaster",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\HeadyMaster.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\HeadyMaster.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\HeadyMaster.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\HeadyMaster.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Setup": {
+      "name": "Setup",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Setup_Vault.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Setup_Vault.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Setup_Vault.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Setup_Vault.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "Vault": {
+      "name": "Vault",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Setup_Vault.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Setup_Vault.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Setup_Vault.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Setup_Vault.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Call": {
+      "name": "Call",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Foreman.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nexus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oracle.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1"
+      ],
+      "score": 63,
+      "status": "successful",
+      "totalScore": 94.5
+    },
+    "Atlas": {
+      "name": "Atlas",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Atlas.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Bridge": {
+      "name": "Bridge",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Bridge.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Builder": {
+      "name": "Builder",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Builder.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Cipher": {
+      "name": "Cipher",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Cipher.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Janitor": {
+      "name": "Janitor",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Janitor.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Jules": {
+      "name": "Jules",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Jules.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Murphy": {
+      "name": "Murphy",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Murphy.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Muse": {
+      "name": "Muse",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Muse.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Nova": {
+      "name": "Nova",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nova.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Observer": {
+      "name": "Observer",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Observer.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "Oculus": {
+      "name": "Oculus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oculus.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Sasha": {
+      "name": "Sasha",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sasha.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Scout": {
+      "name": "Scout",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Scout.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Sentinel": {
+      "name": "Sentinel",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sentinel.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Sophia": {
+      "name": "Sophia",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Sophia.ps1"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Auto": {
+      "name": "Auto",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Doc": {
+      "name": "Doc",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Auto_Doc.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Brainstorm": {
+      "name": "Brainstorm",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Brainstorm.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Brainstorm.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Brainstorm.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Brainstorm.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Clean": {
+      "name": "Clean",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Sweep": {
+      "name": "Sweep",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Clean_Sweep.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "ConsolidationWorker": {
+      "name": "ConsolidationWorker",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\consolidator.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\consolidator.py"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "Content": {
+      "name": "Content",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Generator": {
+      "name": "Generator",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Content_Generator.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Natural": {
+      "name": "Natural",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Daemons\\Natural_Observer.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Gap": {
+      "name": "Gap",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Scanner": {
+      "name": "Scanner",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Gap_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "Github": {
+      "name": "Github",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Github_Scanner.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Heady": {
+      "name": "Heady",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "Chain": {
+      "name": "Chain",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Block": {
+      "name": "Block",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "HeadyChain": {
+      "name": "HeadyChain",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Chain.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Crypt": {
+      "name": "Crypt",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Heady_Crypt.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Hydrator": {
+      "name": "Hydrator",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Hydrator.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Hydrator.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Hydrator.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Hydrator.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Client": {
+      "name": "Client",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\MCP\\Client.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\Client.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\MCP\\Client.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\Client.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Server": {
+      "name": "Server",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\MCP\\Server.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\Server.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\MCP\\Server.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\Server.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Warp": {
+      "name": "Warp",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Manager": {
+      "name": "Manager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Network\\Warp_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "Optimizer": {
+      "name": "Optimizer",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Optimizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Optimizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Optimizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Optimizer.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Auth": {
+      "name": "Auth",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "Protocol": {
+      "name": "Protocol",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Grand_Build_Protocol.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py"
+      ],
+      "score": 5,
+      "status": "successful",
+      "totalScore": 7.5
+    },
+    "AuthProtocol": {
+      "name": "AuthProtocol",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Auth_Protocol.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Key": {
+      "name": "Key",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "KeyManager": {
+      "name": "KeyManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Key_Manager.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "MCPAuthManager": {
+      "name": "MCPAuthManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\MCP_Auth.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Security": {
+      "name": "Security",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "Audit": {
+      "name": "Audit",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security_Audit.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Tool": {
+      "name": "Tool",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Learner": {
+      "name": "Learner",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Tool_Learner.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Visualizer": {
+      "name": "Visualizer",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Visualizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\GoldenMaster_HeadySystems\\Heady\\HeadyAcademy\\Tools\\Visualizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Visualizer.py",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Visualizer.py"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "SentinelHandler": {
+      "name": "SentinelHandler",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyConnection\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Security\\Setup_Security.ps1"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "TaskService": {
+      "name": "TaskService",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyEcosystem\\apps\\api\\src\\services\\task.service.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1
+    },
+    "TaskConfig": {
+      "name": "TaskConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyEcosystem\\services\\browser-automation\\src\\index.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1
+    },
+    "Action": {
+      "name": "Action",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyEcosystem\\services\\browser-automation\\src\\index.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1
+    },
+    "BrowserAutomationService": {
+      "name": "BrowserAutomationService",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyEcosystem\\services\\browser-automation\\src\\index.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1
+    },
+    "GovernanceProtocolManager": {
+      "name": "GovernanceProtocolManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\protocol\\manager.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "GovernanceStandard": {
+      "name": "GovernanceStandard",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\governance-client.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "GovernanceRule": {
+      "name": "GovernanceRule",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ComplianceReport": {
+      "name": "ComplianceReport",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\governance-client.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "AuditLogEntry": {
+      "name": "AuditLogEntry",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "Concept": {
+      "name": "Concept",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\governance\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\governance-client.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "AppRoutes": {
+      "name": "AppRoutes",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "PageRoutes": {
+      "name": "PageRoutes",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "LayoutRoutes": {
+      "name": "LayoutRoutes",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "RedirectRoutes": {
+      "name": "RedirectRoutes",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "RewriteRoutes": {
+      "name": "RewriteRoutes",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "Routes": {
+      "name": "Routes",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "ParamMap": {
+      "name": "ParamMap",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "ParamsOf": {
+      "name": "ParamsOf",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "LayoutSlotMap": {
+      "name": "LayoutSlotMap",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 2
+    },
+    "PageProps": {
+      "name": "PageProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "LayoutProps": {
+      "name": "LayoutProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\dev\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\types\\routes.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 8,
+      "status": "successful",
+      "totalScore": 12
+    },
+    "SacredGeometry": {
+      "name": "SacredGeometry",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\app\\page_client-reference-manifest.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_61ae08a4._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_660722d8._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\static\\chunks\\c64739c73e736673.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\app\\page.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\BreathingOrb.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\SacredCard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\SacredContainer.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\App.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\MonitoringDashboard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\app\\(tabs)\\index.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\app\\(tabs)\\nodes.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\app\\(tabs)\\tasks.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SacredGeometry\\SacredCard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SacredGeometry\\SacredContainer.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\server\\app\\page.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\server\\app\\page_client-reference-manifest.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\server\\app\\_not-found\\page_client-reference-manifest.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\server\\chunks\\383.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\static\\chunks\\app\\layout-830f59a7d2676efa.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\static\\chunks\\app\\page-f25985d1723f9cff.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\src\\app\\page.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\src\\components\\LiveStatusOrbs.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\server\\app\\page.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\server\\app\\page_client-reference-manifest.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\server\\app\\_not-found\\page_client-reference-manifest.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\server\\chunks\\606.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\static\\chunks\\app\\layout-e22558563d321f14.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\static\\chunks\\app\\page-62f13fa4be24cc60.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\src\\app\\page.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\src\\components\\LiveStatusOrbs.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Grand_Build_Protocol.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\heady-manager.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\launch_heady.ps1",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\mcp-server.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\BreathingOrb.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\SacredCard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\SacredContainer.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\scripts\\verify-mcp-new.js"
+      ],
+      "score": 41,
+      "status": "successful",
+      "totalScore": 61.5
+    },
+    "HeadyGenesis": {
+      "name": "HeadyGenesis",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\81458_HeadyGenesis_apps_web__next-internal_server_app_page_actions_d92b66e8.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_61ae08a4._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_660722d8._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_9a9f6ced._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_apps_web_app_layout_tsx_27939788._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_bf03a4ab._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_dcac4531._.js"
+      ],
+      "score": 7,
+      "status": "successful",
+      "totalScore": 7
+    },
+    "CascadeProjects": {
+      "name": "CascadeProjects",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_61ae08a4._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_660722d8._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_9a9f6ced._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_apps_web_app_layout_tsx_27939788._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_bf03a4ab._.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\apps\\web\\.next\\server\\chunks\\ssr\\CascadeProjects_HeadyGenesis_dcac4531._.js"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "GetGreetingRequest": {
+      "name": "GetGreetingRequest",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\application\\greeting\\get-greeting.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "GetGreetingResponse": {
+      "name": "GetGreetingResponse",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\application\\greeting\\get-greeting.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "GetGreeting": {
+      "name": "GetGreeting",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\application\\greeting\\get-greeting.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "UseCase": {
+      "name": "UseCase",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\application\\use-case.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "DomainEvent": {
+      "name": "DomainEvent",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\domain\\base\\domain-event.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Handle": {
+      "name": "Handle",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\domain\\base\\domain-event.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Entity": {
+      "name": "Entity",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\domain\\base\\entity.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ValueObject": {
+      "name": "ValueObject",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\domain\\base\\value-object.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "GreetingProps": {
+      "name": "GreetingProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\domain\\greeting\\greeting.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Greeting": {
+      "name": "Greeting",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\core\\src\\domain\\greeting\\greeting.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Button": {
+      "name": "Button",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\Button.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Button.tsx"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ButtonProps": {
+      "name": "ButtonProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\Button.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\ui.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Button.tsx"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "GreetingCard": {
+      "name": "GreetingCard",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\GreetingCard.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1
+    },
+    "GreetingCardProps": {
+      "name": "GreetingCardProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\GreetingCard.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1
+    },
+    "BreathingOrb": {
+      "name": "BreathingOrb",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\BreathingOrb.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\BreathingOrb.tsx"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "BreathingOrbProps": {
+      "name": "BreathingOrbProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\BreathingOrb.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\BreathingOrb.tsx"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "GoldenSpiral": {
+      "name": "GoldenSpiral",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\GoldenSpiral.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\GoldenSpiral.tsx"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "GoldenSpiralProps": {
+      "name": "GoldenSpiralProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\GoldenSpiral.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\GoldenSpiral.tsx"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "SacredCard": {
+      "name": "SacredCard",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\SacredCard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SacredGeometry\\SacredCard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\SacredCard.tsx"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "SacredCardProps": {
+      "name": "SacredCardProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\SacredCard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SacredGeometry\\SacredCard.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\SacredCard.tsx"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "SacredContainer": {
+      "name": "SacredContainer",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\SacredContainer.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SacredGeometry\\SacredContainer.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\SacredContainer.tsx"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "SacredContainerProps": {
+      "name": "SacredContainerProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadyGenesis\\packages\\ui\\src\\components\\SacredGeometry\\SacredContainer.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SacredGeometry\\SacredContainer.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\SacredContainer.tsx"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "GovernanceEngine": {
+      "name": "GovernanceEngine",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\engine.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "GovernanceDecision": {
+      "name": "GovernanceDecision",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ScanResult": {
+      "name": "ScanResult",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\src\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Env": {
+      "name": "Env",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\governance-worker\\worker-configuration.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\infra\\cloudflare-workers\\edge-router.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "Message": {
+      "name": "Message",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\AIAssistantPanel.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextItem": {
+      "name": "ContextItem",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\AIAssistantPanel.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\schema.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ArenaMode": {
+      "name": "ArenaMode",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\ArenaMode.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ArenaModeProps": {
+      "name": "ArenaModeProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\ArenaMode.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MonitoringDashboard": {
+      "name": "MonitoringDashboard",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\MonitoringDashboard.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TabProps": {
+      "name": "TabProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\MonitoringDashboard.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskMonitor": {
+      "name": "TaskMonitor",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\TaskMonitor.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Task": {
+      "name": "Task",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\TaskMonitor.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\task-router.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\types\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.ts"
+      ],
+      "score": 9,
+      "status": "successful",
+      "totalScore": 13.5
+    },
+    "SystemMetrics": {
+      "name": "SystemMetrics",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\TaskMonitor.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\monitoring-service.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\types\\index.ts"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "Alert": {
+      "name": "Alert",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\components\\TaskMonitor.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\monitoring-service.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\types\\index.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "ImportMetaEnv": {
+      "name": "ImportMetaEnv",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\vite-env.d.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ImportMeta": {
+      "name": "ImportMeta",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\client\\vite-env.d.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Router": {
+      "name": "Router",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\api\\task-routes.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "AppError": {
+      "name": "AppError",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\error-handler.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ValidationError": {
+      "name": "ValidationError",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\error-handler.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "UnauthorizedError": {
+      "name": "UnauthorizedError",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\error-handler.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "NotFoundError": {
+      "name": "NotFoundError",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\error-handler.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPServiceError": {
+      "name": "MCPServiceError",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\error-handler.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskExecutionError": {
+      "name": "TaskExecutionError",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\error-handler.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "RateLimitConfig": {
+      "name": "RateLimitConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\rate-limiter.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "RateLimitStore": {
+      "name": "RateLimitStore",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\rate-limiter.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "RateLimiter": {
+      "name": "RateLimiter",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\middleware\\rate-limiter.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "GistFile": {
+      "name": "GistFile",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\gist-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "GistMetadata": {
+      "name": "GistMetadata",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\gist-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "GistManager": {
+      "name": "GistManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\gist-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPService": {
+      "name": "MCPService",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\mcp-client.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPRequest": {
+      "name": "MCPRequest",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\mcp-client.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPResponse": {
+      "name": "MCPResponse",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\mcp-client.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPClient": {
+      "name": "MCPClient",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\mcp-client.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPConfig": {
+      "name": "MCPConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\mcp-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPManager": {
+      "name": "MCPManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\mcp-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ServiceStatus": {
+      "name": "ServiceStatus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\monitoring-service.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\types\\index.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\src\\components\\LiveStatusOrbs.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\src\\components\\LiveStatusOrbs.tsx"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "MonitoringService": {
+      "name": "MonitoringService",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\monitoring-service.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "NodeName": {
+      "name": "NodeName",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\node-registry.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SystemNode": {
+      "name": "SystemNode",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\node-registry.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "NodeRegistry": {
+      "name": "NodeRegistry",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\node-registry.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "PersistentTaskManagerService": {
+      "name": "PersistentTaskManagerService",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\persistent-task-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskDefinition": {
+      "name": "TaskDefinition",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\realtime-task-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskExecution": {
+      "name": "TaskExecution",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\realtime-task-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskLog": {
+      "name": "TaskLog",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\realtime-task-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskFilter": {
+      "name": "TaskFilter",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\realtime-task-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "RealtimeTaskManager": {
+      "name": "RealtimeTaskManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\realtime-task-manager.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ResourceAllocatorConfig": {
+      "name": "ResourceAllocatorConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\resource-allocator.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "AllocationUpdate": {
+      "name": "AllocationUpdate",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\resource-allocator.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ResourceAllocatorStatus": {
+      "name": "ResourceAllocatorStatus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\resource-allocator.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ResourceAllocator": {
+      "name": "ResourceAllocator",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\resource-allocator.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "QueuedTask": {
+      "name": "QueuedTask",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\task-queue.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskQueue": {
+      "name": "TaskQueue",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\task-queue.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-queue.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-queue.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-queue.ts"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "TaskResult": {
+      "name": "TaskResult",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\task-router.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.ts"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "TaskRouter": {
+      "name": "TaskRouter",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\services\\task-router.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "LogContext": {
+      "name": "LogContext",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\utils\\logger.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "LogEntry": {
+      "name": "LogEntry",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\utils\\logger.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Logger": {
+      "name": "Logger",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\utils\\logger.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\mcp-server.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "Metric": {
+      "name": "Metric",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\utils\\metrics.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ServiceHealth": {
+      "name": "ServiceHealth",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\utils\\metrics.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MetricsCollector": {
+      "name": "MetricsCollector",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\utils\\metrics.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\metrics-collector.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\metrics-collector.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\metrics-collector.ts"
+      ],
+      "score": 4,
+      "status": "successful",
+      "totalScore": 6
+    },
+    "RealtimeEventsHandler": {
+      "name": "RealtimeEventsHandler",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\server\\websocket\\realtime-events.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskType": {
+      "name": "TaskType",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPServiceInfo": {
+      "name": "MCPServiceInfo",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MCPServiceStatus": {
+      "name": "MCPServiceStatus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ApiResponse": {
+      "name": "ApiResponse",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "HealthResponse": {
+      "name": "HealthResponse",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ServiceMetrics": {
+      "name": "ServiceMetrics",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "QueueStatus": {
+      "name": "QueueStatus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "QueuedTaskInfo": {
+      "name": "QueuedTaskInfo",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SocketEvent": {
+      "name": "SocketEvent",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SocketMessage": {
+      "name": "SocketMessage",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ScreenshotRequest": {
+      "name": "ScreenshotRequest",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ScreenshotResult": {
+      "name": "ScreenshotResult",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ServerConfig": {
+      "name": "ServerConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "User": {
+      "name": "User",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\index.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "AuthRequest": {
+      "name": "AuthRequest",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ErrorResponse": {
+      "name": "ErrorResponse",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-automation-ide\\src\\shared\\types.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TEntry": {
+      "name": "TEntry",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "PageParams": {
+      "name": "PageParams",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "RevalidateRange": {
+      "name": "RevalidateRange",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "OmitWithTag": {
+      "name": "OmitWithTag",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "Diff": {
+      "name": "Diff",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "FirstArg": {
+      "name": "FirstArg",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "SecondArg": {
+      "name": "SecondArg",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "MaybeField": {
+      "name": "MaybeField",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "Numeric": {
+      "name": "Numeric",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "Zero": {
+      "name": "Zero",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "Negative": {
+      "name": "Negative",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "NonNegative": {
+      "name": "NonNegative",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\layout.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\heady-lens\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\page.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\page.ts"
+      ],
+      "score": 6,
+      "status": "successful",
+      "totalScore": 9
+    },
+    "SocketProvider": {
+      "name": "SocketProvider",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SocketProvider.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SocketContextType": {
+      "name": "SocketContextType",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SocketProvider.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SocketProviderProps": {
+      "name": "SocketProviderProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\SocketProvider.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ClassValue": {
+      "name": "ClassValue",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\ui.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\GoldenSpiral.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\SacredContainer.tsx"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "GradientCardProps": {
+      "name": "GradientCardProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\ui.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "MetricCardProps": {
+      "name": "MetricCardProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\mobile\\components\\ui.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ParamCheck": {
+      "name": "ParamCheck",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\.next\\types\\app\\api\\status\\route.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\.next\\types\\app\\api\\status\\route.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "LiveStatus": {
+      "name": "LiveStatus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\src\\components\\LiveStatus.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "LiveStatusOrbs": {
+      "name": "LiveStatusOrbs",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-connection\\src\\components\\LiveStatusOrbs.tsx",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\apps\\web-heady-systems\\src\\components\\LiveStatusOrbs.tsx"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "Grand": {
+      "name": "Grand",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Grand_Build_Protocol.ps1"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Build": {
+      "name": "Build",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Grand_Build_Protocol.ps1"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Start": {
+      "name": "Start",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Start_HeadyAcademy.ps1"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "HeadyAcademy": {
+      "name": "HeadyAcademy",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Start_HeadyAcademy.ps1"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Foreman": {
+      "name": "Foreman",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Foreman.ps1"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Nexus": {
+      "name": "Nexus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Nexus.ps1"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Oracle": {
+      "name": "Oracle",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Students\\Wrappers\\Call_Oracle.ps1"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Consolidator": {
+      "name": "Consolidator",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\Consolidator.py"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SecretManager": {
+      "name": "SecretManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\secret-manager.js"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "AutoCommitTracker": {
+      "name": "AutoCommitTracker",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\Heady\\HeadyAcademy\\Tools\\MCP\\Server.py"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "AuthToken": {
+      "name": "AuthToken",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\auth\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Session": {
+      "name": "Session",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\auth\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SessionManager": {
+      "name": "SessionManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\auth\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextClientOptions": {
+      "name": "ContextClientOptions",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\client.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextClient": {
+      "name": "ContextClient",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\client.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextMessage": {
+      "name": "ContextMessage",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\protocol.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ServiceDescriptor": {
+      "name": "ServiceDescriptor",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\protocol.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextObserver": {
+      "name": "ContextObserver",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\protocol.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "DeterministicClock": {
+      "name": "DeterministicClock",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\protocol.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ValidationResult": {
+      "name": "ValidationResult",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextExtractor": {
+      "name": "ContextExtractor",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextValidator": {
+      "name": "ContextValidator",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "DeterministicPipeline": {
+      "name": "DeterministicPipeline",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ContextEvent": {
+      "name": "ContextEvent",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\state-store.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SystemContext": {
+      "name": "SystemContext",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\state-store.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ServiceState": {
+      "name": "ServiceState",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\state-store.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "DeterministicStateStore": {
+      "name": "DeterministicStateStore",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\context\\state-store.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Project": {
+      "name": "Project",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\index.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "AutomationTask": {
+      "name": "AutomationTask",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\index.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SystemComponent": {
+      "name": "SystemComponent",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\scp\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ComponentMetadata": {
+      "name": "ComponentMetadata",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\scp\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "ComponentRegistry": {
+      "name": "ComponentRegistry",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\core-domain\\src\\scp\\schema.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "TaskRestAPI": {
+      "name": "TaskRestAPI",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\api\\rest-api.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\api\\rest-api.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\api\\rest-api.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "ArenaManager": {
+      "name": "ArenaManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-manager.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-manager.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-manager.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "ArenaConfig": {
+      "name": "ArenaConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ArenaMatch": {
+      "name": "ArenaMatch",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "MatchRound": {
+      "name": "MatchRound",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "PlayerSubmission": {
+      "name": "PlayerSubmission",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ArenaEvent": {
+      "name": "ArenaEvent",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ArenaProtocol": {
+      "name": "ArenaProtocol",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\arena-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ProtocolMessage": {
+      "name": "ProtocolMessage",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\communication-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\communication-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ProtocolConfig": {
+      "name": "ProtocolConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\communication-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\communication-protocol.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "NodeCommunicationProtocol": {
+      "name": "NodeCommunicationProtocol",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\communication-protocol.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\communication-protocol.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\communication-protocol.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "WorkflowStep": {
+      "name": "WorkflowStep",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "Workflow": {
+      "name": "Workflow",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "WorkflowExecution": {
+      "name": "WorkflowExecution",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "DeterministicWorkflowEngine": {
+      "name": "DeterministicWorkflowEngine",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\deterministic-workflow.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "GovernanceClient": {
+      "name": "GovernanceClient",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\governance-client.ts"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "NodeMessage": {
+      "name": "NodeMessage",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "NodeCapabilities": {
+      "name": "NodeCapabilities",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "RoutingStrategy": {
+      "name": "RoutingStrategy",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "NodeOrchestrator": {
+      "name": "NodeOrchestrator",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\node-orchestrator.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "RoutingDecision": {
+      "name": "RoutingDecision",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "OptimizedTaskRouter": {
+      "name": "OptimizedTaskRouter",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\optimized-task-router.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "MergeOptions": {
+      "name": "MergeOptions",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "QualityMetrics": {
+      "name": "QualityMetrics",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ComparisonFactor": {
+      "name": "ComparisonFactor",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "ComparisonDecision": {
+      "name": "ComparisonDecision",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "MergeResult": {
+      "name": "MergeResult",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "SquashMerger": {
+      "name": "SquashMerger",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\squash-merger.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "SystemConfig": {
+      "name": "SystemConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\system-integrator.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\system-integrator.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "SystemStatus": {
+      "name": "SystemStatus",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\system-integrator.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\system-integrator.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "SystemIntegrator": {
+      "name": "SystemIntegrator",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\system-integrator.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\system-integrator.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\system-integrator.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "TaskManagerConfig": {
+      "name": "TaskManagerConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-manager.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-manager.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "TaskManager": {
+      "name": "TaskManager",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-manager.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-manager.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-manager.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "QueueConfig": {
+      "name": "QueueConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-queue.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\task-queue.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "WebSocketConfig": {
+      "name": "WebSocketConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\websocket-server.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\websocket-server.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "TaskWebSocketServer": {
+      "name": "TaskWebSocketServer",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\websocket-server.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\websocket-server.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\core\\websocket-server.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "TaskSystemConfig": {
+      "name": "TaskSystemConfig",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\index.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\index.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "TaskSystem": {
+      "name": "TaskSystem",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\index.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\index.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\index.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "MetricPoint": {
+      "name": "MetricPoint",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "PerformanceMetrics": {
+      "name": "PerformanceMetrics",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "HealthCheck": {
+      "name": "HealthCheck",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "PerformanceMonitor": {
+      "name": "PerformanceMonitor",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\monitoring\\performance-monitor.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "TaskRepository": {
+      "name": "TaskRepository",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\persistence\\task-repository.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\persistence\\task-repository.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\persistence\\task-repository.ts"
+      ],
+      "score": 3,
+      "status": "successful",
+      "totalScore": 4.5
+    },
+    "VARCHAR": {
+      "name": "VARCHAR",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\persistence\\task-repository.js",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\persistence\\task-repository.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "TaskExecutor": {
+      "name": "TaskExecutor",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "TaskEvent": {
+      "name": "TaskEvent",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "TaskMetrics": {
+      "name": "TaskMetrics",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.d.ts",
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\task-manager\\src\\types\\task.types.ts"
+      ],
+      "score": 2,
+      "status": "discovered",
+      "totalScore": 3
+    },
+    "Card": {
+      "name": "Card",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Card.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "CardProps": {
+      "name": "CardProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Card.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Footer": {
+      "name": "Footer",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Footer.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "FooterProps": {
+      "name": "FooterProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Footer.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "FractalGrid": {
+      "name": "FractalGrid",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\FractalGrid.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "FractalGridProps": {
+      "name": "FractalGridProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\FractalGrid.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "NeuralMesh": {
+      "name": "NeuralMesh",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\NeuralMesh.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "NeuralMeshProps": {
+      "name": "NeuralMeshProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\SacredGeometry\\NeuralMesh.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "Sidebar": {
+      "name": "Sidebar",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Sidebar.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SidebarItem": {
+      "name": "SidebarItem",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Sidebar.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "SidebarProps": {
+      "name": "SidebarProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\Sidebar.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "StatusBadge": {
+      "name": "StatusBadge",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\StatusBadge.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "StatusBadgeProps": {
+      "name": "StatusBadgeProps",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\packages\\ui\\src\\components\\StatusBadge.tsx"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    },
+    "IntelligentMerger": {
+      "name": "IntelligentMerger",
+      "files": [
+        "C:\\Users\\erich\\CascadeProjects\\HeadySystems\\scripts\\auto-merge.js"
+      ],
+      "score": 1,
+      "status": "discovered",
+      "totalScore": 1.5
+    }
+  },
+  "services": {
+    "secret_gateway": {
+      "path": "HeadySystems/services/secret_gateway",
+      "status": "ACTIVE"
+    },
+    "google_mcp": {
+      "path": "HeadySystems/services/google_mcp",
+      "status": "ACTIVE"
+    },
+    "perplexity_mcp": {
+      "path": "HeadySystems/services/perplexity_mcp",
+      "status": "ACTIVE"
+    },
+    "jules_mcp": {
+      "path": "HeadySystems/services/jules_mcp",
+      "status": "ACTIVE"
+    },
+    "huggingface_gateway": {
+      "path": "HeadySystems/services/huggingface_gateway",
+      "status": "ACTIVE"
+    },
+    "memory_mcp": {
+      "path": "HeadySystems/services/memory_mcp",
+      "status": "ACTIVE"
+    },
+    "ai_router": {
+      "path": "HeadySystems/services/ai_router",
+      "status": "ACTIVE"
+    },
+    "cli_service": {
+      "path": "HeadySystems/services/cli_service",
+      "status": "ACTIVE"
+    },
+    "colab_gateway": {
+      "path": "HeadySystems/services/colab_gateway",
+      "status": "ACTIVE"
+    },
+    "silicon_bridge": {
+      "path": "HeadySystems/services/silicon_bridge",
+      "status": "ACTIVE"
+    },
+    "model_gateway": {
+      "path": "HeadySystems/services/model_gateway",
+      "status": "ACTIVE"
+    }
+  },
+  "tools": {},
+  "agents": {},
+  "infrastructure": {
+    "docker_compose": {
+      "path": "docker-compose.yml",
+      "services": 8
+    },
+    "cloudflare_workers": {
+      "supervisor_worker": "HeadySystems/cloudflare/supervisor-worker",
+      "node_swarm_worker": "HeadySystems/cloudflare/node_swarm_worker"
+    },
+    "github_workflows": {
+      "heady_orchestrator": ".github/workflows/heady-orchestrator.yml",
+      "supervisor_enforce": ".github/workflows/supervisor-enforce.yml"
+    }
+  },
+  "security": {
+    "critical": [
+      {
+        "issue": "NO_RATE_LIMITING",
+        "file": "src/api.js",
+        "risk": "HIGH",
+        "description": "API endpoints have no rate limiting - vulnerable to DoS"
+      },
+      {
+        "issue": "NO_HELMET",
+        "file": "src/api.js",
+        "risk": "HIGH",
+        "description": "Missing helmet middleware for HTTP security headers"
+      },
+      {
+        "issue": "HARDCODED_ADMIN_TOKEN",
+        "file": "shared/config/hive_config.json",
+        "risk": "CRITICAL",
+        "description": "Admin token 'heady-master-key-123' is hardcoded"
+      },
+      {
+        "issue": "WEAK_SIGNATURE_VALIDATION",
+        "file": "core/safety_protocols.py",
+        "risk": "MEDIUM",
+        "description": "Orchestrator signature validation is simplified"
+      }
+    ],
+    "moderate": [
+      {
+        "issue": "NO_INPUT_SANITIZATION",
+        "file": "src/api.js",
+        "risk": "MEDIUM",
+        "description": "User input not sanitized before processing"
+      },
+      {
+        "issue": "CHILD_PROCESS_USAGE",
+        "file": "src/api.js",
+        "risk": "MEDIUM",
+        "description": "Direct spawn/execSync usage needs input validation"
+      },
+      {
+        "issue": "FILE_LOCK_TIMEOUT",
+        "file": "src/state_store.js",
+        "risk": "LOW",
+        "description": "30s stale lock timeout may cause issues"
+      }
+    ],
+    "low": []
+  },
+  "performance": [
+    {
+      "issue": "VINCI_POLL_INTERVAL",
+      "value": "1500ms",
+      "recommendation": "Make configurable, consider event-driven"
+    },
+    {
+      "issue": "SYNC_FILE_OPERATIONS",
+      "file": "src/state_store.js",
+      "recommendation": "Consider async alternatives for high-throughput"
+    },
+    {
+      "issue": "JSON_PARSE_ON_EVERY_REQUEST",
+      "recommendation": "Add in-memory caching layer"
+    },
+    {
+      "issue": "EVENT_LIMIT_100",
+      "file": "src/governance.js",
+      "recommendation": "Increase or make configurable"
+    }
+  ],
+  "gaps": [
+    {
+      "gap": "STUB_ARCHITECT",
+      "description": "Architect only writes placeholder drafts"
+    },
+    {
+      "gap": "STUB_OPTIMIZER",
+      "description": "Optimizer simulates analysis only"
+    },
+    {
+      "gap": "STUB_CONDUCTOR",
+      "description": "Conductor doesn't spawn real Docker workers"
+    },
+    {
+      "gap": "NO_REAL_CODE_GENERATION",
+      "description": "Build pipeline produces placeholder code"
+    },
+    {
+      "gap": "MISSING_TESTS",
+      "description": "No automated test suite for core services"
+    }
+  ],
+  "files": {},
+  "metadata": {
+    "project": {
+      "name": "Heady",
+      "type": "hybrid",
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "frameworks": [
+        "express",
+        "react"
+      ]
+    },
+    "intelligence": {
+      "registry": true,
+      "checkpoints": true,
+      "routing": true,
+      "squashMerge": true
+    }
+  }
+}

@@ -1,0 +1,98 @@
+﻿# Exported from Render on 2026-01-30T13:57:31Z
+version: "1"
+projects:
+- name: Heady
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: "1234"
+      runtime: docker
+      repo: https://github.com/HeadyMe/Heady
+      plan: standard
+      envVars:
+      - key: HEADY_JWT_EXPIRES_IN
+        sync: false
+      - key: HEADY_SESSION_SECRET
+        sync: false
+      - key: HEADY_LOG_FORMAT
+        sync: false
+      - key: HEADY_LOG_LEVEL
+        sync: false
+      - key: HEADY_MCP_MAX_CONCURRENT_REQUESTS
+        sync: false
+      - key: HEADY_MCP_SERVER_TIMEOUT_MS
+        sync: false
+      - key: HEADY_TRUST_PROXY
+        sync: false
+      - key: HEADY_CORS_ORIGINS
+        sync: false
+      - key: ENABLE_GPUDIRECT
+        sync: false
+      - key: GPU_MEMORY_LIMIT
+        sync: false
+      - key: REMOTE_GPU_PORT
+        sync: false
+      - key: REMOTE_GPU_HOST
+        sync: false
+      - key: HEADY_ADMIN_ENABLE_GPU
+        sync: false
+      - key: HEADY_ADMIN_OP_LIMIT
+        sync: false
+      - key: HEADY_ADMIN_OP_LOG_LIMIT
+        sync: false
+      - key: HEADY_ADMIN_MAX_BYTES
+        sync: false
+      - key: HEADY_ADMIN_ALLOWED_PATHS
+        sync: false
+      - key: HEADY_ADMIN_ROOT
+        sync: false
+      - key: HEADY_QA_MAX_CONTEXT_CHARS
+        sync: false
+      - key: HEADY_QA_MAX_QUESTION_CHARS
+        sync: false
+      - key: HEADY_QA_MAX_NEW_TOKENS
+        sync: false
+      - key: HEADY_QA_BACKEND
+        sync: false
+      - key: HEADY_PY_WORKER_TIMEOUT_MS
+        sync: false
+      - key: HEADY_PYTHON_BIN
+        sync: false
+      - key: HEADY_PY_MAX_CONCURRENCY
+        sync: false
+      - key: HF_MAX_CONCURRENCY
+        sync: false
+      - key: HEADY_RATE_LIMIT_MAX
+        sync: false
+      - key: HEADY_RATE_LIMIT_WINDOW_MS
+        sync: false
+      - key: HF_EMBED_MODEL
+        sync: false
+      - key: HF_TEXT_MODEL
+        sync: false
+      - key: NODE_ENV
+        sync: false
+      - key: PORT
+        sync: false
+      - key: GH_TOKEN
+        sync: false
+      - key: GITHUB_APP_WEBHOOK_SECRET
+        sync: false
+      - key: GITHUB_APP_PRIVATE_KEY
+        sync: false
+      - key: GITHUB_APP_ID
+        sync: false
+      - key: HEADY_API_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: HF_TOKEN
+        sync: false
+      - key: Var_Set_1
+        sync: false
+      region: oregon
+      dockerContext: .
+      dockerfilePath: ./Dockerfile
+      autoDeployTrigger: commit
+      rootDir: HeadyMe/Heady HeadyMe/main HeadySystems/Heady HeadySystems/HeadyConnection HeadyMe/HeadyConnection HeadySystems/sandbox HeadySystems/HeadyConnection

@@ -1,109 +1,113 @@
-# HEADY MONOREPO | WINDSURF PROTOCOL
+# HEADY SYSTEMS | WINDSURF PROTOCOL
 
 ## PRIMARY DIRECTIVE
-You are working in the Heady Monorepo - a unified ecosystem for sovereign AI systems.
+You are the Heady Project AI. Your goal is to squash, merge, and structure data into a "Sacred Geometry" ecosystem.
 
-## MONOREPO STRUCTURE
+## DOCUMENTATION BEHAVIOR (The Quiz Protocol)
+When asked to document code or generate summaries, YOU MUST FOLLOW THIS EXACT PROCEDURE:
 
-### Workspaces
-- **apps/**: User-facing applications (manager, admin-ui, orchestrator, governance)
-- **services/**: Backend microservices (MCP servers, gateways, routers)
-- **packages/**: Shared libraries (@heady/core, @heady/config, @heady/types)
-- **infrastructure/**: Deployment configs (Docker, Cloudflare, K8s)
-- **tools/**: CLI tools and scripts
-
-### Package Naming
-All packages use `@heady/*` scope:
-- `@heady/manager` - Main Node.js manager
-- `@heady/core` - Core utilities
-- `@heady/config` - Configuration management
-- `@heady/types` - TypeScript types
-
-## DEVELOPMENT WORKFLOW
-
-### Making Changes
-1. Always work within appropriate workspace (apps/, services/, packages/)
-2. Use Turbo for builds: `pnpm build`
-3. Run tests before committing: `pnpm test`
-4. Format code: `pnpm format`
-
-### Adding Dependencies
-```bash
-# Add to specific workspace
-pnpm --filter @heady/manager add express
-
-# Add to root (dev dependencies)
-pnpm add -D -w eslint
-```
-
-### Creating New Packages
-1. Create directory in appropriate workspace
-2. Add package.json with @heady/* name
-3. Update pnpm-workspace.yaml if needed
-4. Run `pnpm install`
-
-## BUILD SYSTEM
-
-### Turbo Pipeline
-- **build**: Builds package and dependencies
-- **dev**: Starts development server
-- **test**: Runs tests
-- **lint**: Lints code
-- **type-check**: TypeScript validation
-
-### Caching
-Turbo caches build outputs. Clear with: `pnpm clean`
-
-## DOCUMENTATION BEHAVIOR (Quiz Protocol)
-When documenting code:
-1. Review & Extract concepts
-2. Generate quiz questions
-3. Formulate flashcards (one idea per card)
-4. Iterative coverage
-5. Integrate & organize
-6. Ensure precision
+1. **Review & Extract:** Read the material. Identify concepts, processes, and data.
+2. **Generate Quiz Questions:** Create clear questions for each concept. Use open-ended for insights, boolean/multiple-choice for recall.
+3. **Formulate Flashcards:** Convert Question-Answer pairs into flashcards. ONE idea per card.
+4. **Iterative Coverage:** Repeat until all material is processed. Avoid redundancy.
+5. **Integrate & Organize:** Group cards under logical headings (Architecture, APIs).
+6. **Ensure Precision:** Verify accuracy.
 
 ## TECH STACK
-- **Package Manager**: pnpm (workspaces)
-- **Build System**: Turborepo
-- **Frontend**: React + Vite
-- **Backend**: Node.js + Express, Python + FastAPI
-- **Database**: PostgreSQL + Redis
-- **Deployment**: Docker + Cloudflare
+- **Manager:** Node.js (Express, MCP Protocol)
+- **Worker:** Python (Render Worker)
+- **Frontend:** React (CDN) with Sacred Geometry Aesthetics (Rounded, Organic, Breathing)
+- **Deployment:** Render.com Blueprint
 
 ## PATHS
-- Root: `c:\Users\erich\CascadeProjects\HeadyMonorepo`
-- Apps: `apps/*`
-- Services: `services/*`
-- Packages: `packages/*`
-- Shared: `shared/config`, `shared/state`
+- `heady-manager.js` - Node.js MCP server (port 3300)
+- `src/` - Backend logic (Python worker)
+- `public/` - Sacred UI (React)
+- `.github/` - Copilot & Actions Configuration
+- `render.yaml` - Infrastructure as Code
 
 ## ENVIRONMENT VARIABLES
-See `.env.example` for all variables. Key ones:
-- `HEADY_API_KEY` - API authentication
-- `DATABASE_URL` - PostgreSQL connection
-- `REDIS_URL` - Redis connection
-- AI provider keys (PERPLEXITY_API_KEY, GEMINI_API_KEY, etc.)
+- `DATABASE_URL` - Postgres connection (from Render)
+- `HEADY_API_KEY` - Auto-generated API key
 
 ## SCRIPTS
-- `pnpm dev` - Start all in dev mode
-- `pnpm build` - Build everything
-- `pnpm test` - Run all tests
-- `pnpm lint` - Lint all code
-- `pnpm docker:up` - Start Docker services
-- `pnpm validate` - Lint + Type-check + Test
+- `commit_and_build.ps1` - Local build cycle
+- `nexus_deploy.ps1` - Push to all remotes
+- `hb` - Global autobuild with intelligence verification
+- `hs` - HeadySync repository synchronization
+- `hc` - Checkpoint generation
 
-## SACRED GEOMETRY PRINCIPLES
-- Maintain rounded, organic, breathing UI aesthetics
-- Trust-First architecture
-- Glass Box monitoring
-- Sovereign AI principles
+## INTELLIGENCE VERIFICATION PROTOCOL
+**CRITICAL:** Before ANY Heady response, verify all systems are operational:
 
-## BEST PRACTICES
-1. Use workspace protocol for cross-package imports
-2. Keep packages focused and modular
-3. Document all public APIs
-4. Write tests for new features
-5. Use TypeScript for type safety
-6. Follow ESLint rules
-7. Commit with conventional commits
+1. **Run Pre-Response Verification:**
+   ```javascript
+   const HeadyIntelligenceVerifier = require('./src/heady_intelligence_verifier');
+   const verifier = new HeadyIntelligenceVerifier();
+   const results = await verifier.verify();
+   ```
+
+2. **Required Systems (Must Pass):**
+   - HeadyRegistry (component registry)
+   - Memory Storage (validations, patterns)
+   - Checkpoint System (state snapshots)
+   - Context Persistence (codemap, project context)
+   - Data Schema (processing modules)
+   - Codemap Access (codebase intelligence)
+   - SquashMerge System (multi-codebase merger)
+   - Routing System (HeadyRegistry router)
+   - Audit Logging (write access)
+   - File System Access (critical directories)
+
+3. **Optional Systems (Enhance Intelligence):**
+   - HeadyManager (port 3300/3100)
+   - MCP Servers (configured in mcp_config.json)
+   - Orchestrator (port 3100)
+   - Governance (governance_checkpoint.js)
+   - Validation Pipeline
+   - Git Operations
+
+4. **After Every Operation:**
+   - Update `.heady-context/project-context.json` with operation details
+   - Update `.heady-context/codemap.json` with codebase changes
+   - Log to audit trail
+   - Generate checkpoint if major change
+
+5. **Context Persistence:**
+   - Codemap and project context MUST be accessible for intelligence
+   - Operation history tracked in project-context.json (last 50 operations)
+   - All responses use verified data from persistent context
+
+## HEADY SYSTEMS UTILIZATION
+**ALWAYS route requests through HeadyRegistry Router:**
+- Documentation → HeadyAcademy (ATLAS, MUSE, ORACLE)
+- Code Generation → HeadyHive (ARCHITECT, JULES, BUILDER)
+- Security → HeadyChain (SENTINEL, MURPHY, CIPHER)
+- Data Processing → HeadyManager (HuggingFace, Python Worker)
+- Research → HeadyAcademy (SCOUT, SASHA, NOVA)
+
+## WINDSURF COMMAND ROUTING
+**CRITICAL:** ALL commands issued through Windsurf MUST be routed through HeadyMCP services:
+
+1. **Command Interception:**
+   - Every terminal command, file operation, and code action goes through MCP
+   - Use MCPClientWrapper for all programmatic operations
+   - Leverage MCP tools: filesystem, git, sequential-thinking, memory, etc.
+
+2. **MCP Service Priority:**
+   - filesystem → All file read/write operations
+   - git → All version control operations
+   - sequential-thinking → Complex multi-step tasks
+   - memory → Knowledge persistence and retrieval
+   - fetch → HTTP requests and API calls
+   - postgres → Database operations
+   - puppeteer → Browser automation
+   - cloudflare → Cloudflare API integration
+
+3. **Automatic Connection:**
+   - HeadyManager auto-connects to all MCP services on startup
+   - Scripts use MCPClientWrapper for unified access
+   - All operations logged through MCP governance
+
+## VERIFICATION COMMAND
+Run before responding: `node src/heady_intelligence_verifier.js`
